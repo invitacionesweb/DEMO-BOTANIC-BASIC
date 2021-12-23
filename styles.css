@@ -21,7 +21,7 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/2T4A7457-1-768x1152.jpg);
+    background-image: url(icons/imagenbackground.jpeg);
     display: grid;
     place-items: center ;
     background-size: cover;
@@ -37,7 +37,7 @@ header img {
 .info-ceremonia {
     width: 100%;
     height: auto;
-    background-image: url(icons/banner2.png);
+    background-image: url(icons/bannerdos.PNG);
     background-size: cover;
     background-position: left; 
     display: grid;
