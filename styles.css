@@ -29,6 +29,7 @@ header {
     display: grid;
     place-items: center ;
     min-width: 300px;
+    -webkit-backface-visibility: hidden;
 
 }
 header img {
