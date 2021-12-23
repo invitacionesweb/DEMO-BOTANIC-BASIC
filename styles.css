@@ -1,0 +1,206 @@
+:root {
+    --color-secundario: #F9F9F6;
+    --color-tipografia:#6D746A;
+    --color-principal:#949D91;
+    --color-link: #c9b69b;
+    --sm:14px;
+    --md:18px;
+    --lg:24px;
+
+}
+
+body {
+    font-family:  'Baloo Bhaijaan 2', cursiva;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 300px;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/2T4A7457-1-768x1152.jpg);
+    display: grid;
+    place-items: center ;
+    background-size: cover;
+    background-position: center;   
+    background-attachment: fixed;
+    min-width: 300px;
+
+}
+header img {
+    width: 40%;
+}
+
+.info-ceremonia {
+    width: 100%;
+    height: auto;
+    background-image: url(/icons/banner1.png);
+    background-size: cover;
+    background-position: left; 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    place-items: center ;
+
+}
+.ceremonia-card {
+    width: 260px;
+    background-color: white;
+    margin: 40px 0px;
+    border-radius: 15px;
+    display: grid;
+    place-items: center ;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 30px -6px rgba(0,0,0,0.54);
+
+}
+
+.ceremonia-card h2{
+    padding: 0;
+    margin: 0;
+}
+button {
+    background-color: var(--color-principal);
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--color-secundario);
+
+}
+a:hover {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+.galeria {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.galeria div {
+    width: 100%;
+    height: 450px;
+    background-color: var(--color-principal);
+}
+.galeria-1{
+    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/2T4A8083-1-768x1152.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.galeria-2{
+    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/Noordwijk-Wedding-12.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.galeria-3{
+    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/Noordwijk-Wedding-16.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.galeria-4{
+    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/Noordwijk-Wedding-13.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.regalos {
+    height: 30vh;
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+    display: grid;
+    place-items: center ;
+    text-align: center;
+    padding: 30px 10px;
+
+}
+
+.regalos button  {
+    background-color: var(--color-secundario);
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    
+}
+.regalos a {
+    color: var(--color-principal);
+}
+
+.confirm {  
+    width: 100%;
+    height: auto;
+    background-image: url(/icons/banner2.png);
+    background-size: cover;
+    background-position: left; 
+    display: grid;
+    place-items: center ;
+    padding: 30px 0;
+    color: var(--color-principal);
+
+}
+
+
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 16px;
+    list-style: none;
+    padding-bottom: 0px;
+    
+}
+
+footer i {
+    color: var(--color-secundary);
+    font-size: var(--sm);
+
+}
+footer i:hover {
+    color: var(--color-link);
+}
+
+@media (max-width: 660px){
+    
+    .info-ceremonia {
+        grid-template-columns: 1fr; 
+    }
+
+    .galeria {
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr; 
+    }
+    footer {
+        flex-direction: column-reverse;
+    }
+    footer ul {
+        flex-direction: column;
+    }
+    footer ul li{
+        margin: 0;
+        padding-bottom: 0;
+    } 
+ }
+
