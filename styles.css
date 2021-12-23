@@ -37,7 +37,7 @@ header img {
 .info-ceremonia {
     width: 100%;
     height: auto;
-    background-image: url(/icons/banner1.png);
+    background-image: url(icons/banner1.png);
     background-size: cover;
     background-position: left; 
     display: grid;
@@ -141,7 +141,7 @@ a:hover {
 .confirm {  
     width: 100%;
     height: auto;
-    background-image: url(/icons/banner2.png);
+    background-image: url(icons/banner2.png);
     background-size: cover;
     background-position: left; 
     display: grid;
