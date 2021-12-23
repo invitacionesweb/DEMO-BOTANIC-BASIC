@@ -29,7 +29,7 @@ header {
     display: grid;
     place-items: center ;
     min-width: 300px;
-    -webkit-backface-visibility: hidden;
+    
 
 }
 header img {
@@ -94,7 +94,7 @@ a:hover {
     background-color: var(--color-principal);
 }
 .galeria-1{
-    background-image: url(icons/banner1.png);
+    background-image: url(https://toth-photography.de/wp-content/uploads/2019/06/2T4A7481-2-768x1152.jpg);
     background-size: cover;
     background-position: center; 
 }
